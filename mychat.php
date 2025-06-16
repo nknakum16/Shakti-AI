@@ -6,13 +6,13 @@ header('Access-Control-Allow-Methods: POST, OPTIONS');
 header('Access-Control-Allow-Headers: Content-Type, Authorization');
 
 class ShaktiAI {
-    private $api_url = "https://parthsadaria-lokiai.hf.space/chat/completions";
-    private $weather_api_key = "0018ceddfe2342b7992124332252905";
-    private $weather_api_url = "https://api.weatherapi.com/v1/current.json";
+    private $api_url = "Your API Key";
+    private $weather_api_key = "Weather API";
+    private $weather_api_url = "Weather API URL";
     private $message_history;
     private $headers = [
         'Content-Type: application/json',
-        'Authorization: sigma'
+        'Authorization: API_KEY HERE'
     ];
     
     private $valid_models = [
